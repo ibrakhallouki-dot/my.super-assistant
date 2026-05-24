@@ -45,7 +45,7 @@ if (!userCommand) {
 (async () => {
   console.log(`🚀 تنفيذ: "${userCommand}"\n`);
   
-  const plan = await callGemini(`حول الأمر التالي إلى خطة عمل مفصلة خطوة بخطوة: ${userCommand}`);
+  const plan = await callGemini(`حول الأمر التالي إلى خطة عمل مفصلة: ${userCommand}`);
   console.log("📋 الخطة:\n", plan || "تعذر إنشاء خطة");
   
   if (userCommand.match(/فيديو|pexels/i) && PEXELS_API_KEY) {
