@@ -1,0 +1,13 @@
+{
+  "name": "my-super-assistant",
+  "version": "1.0.0",
+  "description": "مساعد ذكي متكامل باستخدام Gemini, Groq, Pexels",
+  "main": "assistant.js",
+  "scripts": {
+    "start": "node assistant.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  }
+}
